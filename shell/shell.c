@@ -1,6 +1,6 @@
 /*
 
-Blasn Kernel Shell version 1.0 PA
+Blasn Kernel Shell version 1.0.1 PA
 
 */
 
@@ -10,6 +10,11 @@ Blasn Kernel Shell version 1.0 PA
 
 #define MAX_INPUT 100
 #define CURSOR_CHAR '_'
+
+char* user "root"
+char* hostname "blasnlive"
+char* currentdir "~"
+char* prmpt "#"
 
 void command(const char *cmd)
 {
@@ -54,7 +59,30 @@ int main()
 
     while (1)
     {
-        printf("blasn> "); // プロンプトを表示
+
+        if (user == "root")
+        {
+            prmpt = "#";
+        } else if (prmpt == "#")
+        {
+            user = "root";
+        } else if (user != "root")
+        {
+            prmpt = "$";
+        } else if (prmpt == "$")
+        {
+            user = "user";
+        }
+
+        if (currentdir == "/home/"user)
+        {
+            currentdir = "~";
+        } else if (currentdir =="/root")
+        {
+            currentdir = "^";
+        }
+        
+        printf("%s@%s %s %s ",user, hostname,currentdir, prmpt); // プロンプトを表示
 
         while (1)
         {
