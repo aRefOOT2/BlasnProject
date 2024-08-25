@@ -49,13 +49,13 @@ void update_prmpt()
      currentdir = "~"; // ユーザーのホームディレクトリ
     
     } else
-     {
+    {
      
       currentdir = new_dir; // 絶対パスを表示
       
-      }
-      
     }
+      
+  }
     
 }
 
@@ -275,16 +275,20 @@ int main()
   
     while (1)
     {
+    
      timer = 1 + (timer % 1000);
      usleep(1000);
        
        // カーソル点滅の処理
      if (timer % 500 == 0)
        {
+       
        cursor(show);
        show = !show;
        fflush(stdout);
+       
        }
+     
      fd_set read_fds;
      struct timeval tv;
   
@@ -296,10 +300,13 @@ int main()
         // 入力があったかを確認
       if (select(1, &read_fds, NULL, NULL, &tv) > 0)
        {
+       
         if (!show)
            {
+           
           printf("\b"); //すでにカーソルが描画されている場合
           show = !show;
+           
            }
            
         timer = 0;
@@ -307,33 +314,44 @@ int main()
         char ch = getchar(); // 1文字ずつ入力を取得
         if (ch == EOF)
            {
+           
           continue; // 入力が終わった場合は無視
+           
            }
         if (ch == '\n') // 改行が入力された場合
            {
+           
           if (pos > 0)
               {
+              
              input[pos] = '\0'; // 文字列の終端を設定
              clearline(pos);
              puts("");
              command(input);
+              
               }
            break; // 入力ループを抜ける
           } else if (ch == 127 || ch == '\b') // Backspaceが押された場合
               {
+              
              if (pos > 0)
                  {
+                 
                pos--; // 入力位置を1つ戻す
                printf("\b \b"); // カーソルを消して文字を消去
                fflush(stdout);
+                 
                  }
+          
           } else if (pos < MAX_INPUT - 1) // 入力長が制限を超えない場合
               {
+              
              input[pos++] = ch; // 入力文字を追加
              putchar(ch); // 画面に文字を表示
              fflush(stdout);
-              }
               
+              }
+
         }
               
     }
