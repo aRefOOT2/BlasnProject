@@ -1,6 +1,6 @@
 # Blasn Project公式資料集
 
-更新日時：2024/08/26  3:50
+更新日時：2024/08/26  3:54
 
 ## 目次
 1. [Blasn Projectとは](#blasn-projectとは)
