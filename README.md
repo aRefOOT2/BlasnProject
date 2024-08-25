@@ -29,14 +29,17 @@
 ### 2. Blasn OS/Blasn Kernelとは
 #### Blasn OSとは
 **Blasn Kernel上で動作するOSです。**
+
 　実行可能ファイルはBlasn Kernelと同じです。
 
 #### Blasn Kernelとは
 **個人で開発しているカーネルです。**
+
 　実行可能ファイルは`Blasn eXectable Object(bxo)`です。
 
 ####  Blasn Kernel Shell(BKS)とは
 **Blasn Kernel上で動作するシェルプログラムです。**
+
 　必要最低限のコマンドを内蔵しており、Blasn OSが起動できない問題を見つけ、取り除くことを目的としたプログラムです。
 
 　実行ファイルは、`/kernel/shell/shell.bxo`に存在します。
