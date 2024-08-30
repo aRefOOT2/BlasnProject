@@ -1,10 +1,8 @@
 # Blasn Project公式資料集
 
-![Blasn Logo](https://github.com/aRefOOT2/BlasnProject/tree/main/data/image/Blasn_Logo.png)
+![Blasn_Logo](https://github.com/user-attachments/assets/94b190ac-fc71-45db-9852-21c7ec78e11a)
 
-![Blasn Logo(B64)](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAedJREFUWEe1l01OwzAQhceAuoYVIO7Q42RfZRHRS5RcIlKQSlmX05RDILpBYokQBDlO4r+xZ+xQ75pM/L4Zv7FdAdTooLNCBIjwJ90QKyIx9tfhwA4WAPDliQUBRnGA7fbprizLNyo3+R4HcLM2Z0IBtLgO5VXBBogJ65kXIODbzk4BdEM+Ylo1GkID8MSVrlUFW1y9Hm3DAUgRHtOeAHTpx+x1CA9Cwtou5zlnqJyfvQvQto+XVVV9hqadARAWT6lCFsDyuLx+vTkcTeNhGWov9M5AO049zFoG+RG93xiGPOuVnJHXBXImWnuSinVFzj6gipYAEGtNfxrmcpwSQEL9crrxPyDSzwKDLB9Ad0XsNCQ3qFQAzAtxKxF+mAegqkB7OXo0h4sU2yPMtiQAhsMmlqogVyrqZ8b1CqDqANrArlcRZ1lLpEgCSPFxYBAUgJu+CxQAUKU3xeXvOQB4JVAT6kuGC4BBxCqAie73LxdFUfzoI9uzCJ69GeZWwoUIZYsf2dZTWhzzgwRIETUlHQ/wAazl8FqRsb8MFAYAT9zKVApPewRf1KtA0zRX6/X9B+b8PtNgs+aJIkvgZ39KUQcA+1ulQ3a759vVavXOuR/kxAgAH2CzeTiv65p1KckRjVRg/pqmAv0BGuSxGzfGB+YAAAAASUVORK5CYII=)
-
-更新日時：2024/08/30  11:00
+更新日時：2024/08/30  11:13
 
 ## 目次
 1. [Blasn Projectとは](#blasn-projectとは)
@@ -123,6 +121,7 @@ Blasn Kernel Shell :
 Blasn OS :
 [こちら](https://github.com/aRefOOT2/BlasnProject/tree/os)
 
+<hr>
 
 Blasn Project
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAedJREFUWEe1l01OwzAQhceAuoYVIO7Q42RfZRHRS5RcIlKQSlmX05RDILpBYokQBDlO4r+xZ+xQ75pM/L4Zv7FdAdTooLNCBIjwJ90QKyIx9tfhwA4WAPDliQUBRnGA7fbprizLNyo3+R4HcLM2Z0IBtLgO5VXBBogJ65kXIODbzk4BdEM+Ylo1GkID8MSVrlUFW1y9Hm3DAUgRHtOeAHTpx+x1CA9Cwtou5zlnqJyfvQvQto+XVVV9hqadARAWT6lCFsDyuLx+vTkcTeNhGWov9M5AO049zFoG+RG93xiGPOuVnJHXBXImWnuSinVFzj6gipYAEGtNfxrmcpwSQEL9crrxPyDSzwKDLB9Ad0XsNCQ3qFQAzAtxKxF+mAegqkB7OXo0h4sU2yPMtiQAhsMmlqogVyrqZ8b1CqDqANrArlcRZ1lLpEgCSPFxYBAUgJu+CxQAUKU3xeXvOQB4JVAT6kuGC4BBxCqAie73LxdFUfzoI9uzCJ69GeZWwoUIZYsf2dZTWhzzgwRIETUlHQ/wAazl8FqRsb8MFAYAT9zKVApPewRf1KtA0zRX6/X9B+b8PtNgs+aJIkvgZ39KUQcA+1ulQ3a759vVavXOuR/kxAgAH2CzeTiv65p1KckRjVRg/pqmAv0BGuSxGzfGB+YAAAAASUVORK5CYII=)
+![Blasn_Logo](https://github.com/user-attachments/assets/0af88695-ed91-46c0-876f-3eb7a6668891)
