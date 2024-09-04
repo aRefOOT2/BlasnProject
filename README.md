@@ -2,7 +2,7 @@
 
 ![Blasn_Logo](https://github.com/user-attachments/assets/94b190ac-fc71-45db-9852-21c7ec78e11a)
 
-更新日時：2024/08/30  11:13
+更新日時：2024/09/05  08:40
 
 ## 目次
 1. [Blasn Projectとは](#blasn-projectとは)
