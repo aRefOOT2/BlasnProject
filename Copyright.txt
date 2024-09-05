@@ -1,0 +1,22 @@
+===============================
+  Blasn Project Copyright.txt
+===============================
+* Copyright (c) 2024 aRefOOT2
+
+
+Developers
+------------------
+
+The developer and responsible party is 'aRefOOT2'.
+
+This program was developed by 'aRefOOT2' as part of the Blasn Project.
+
+This program contains code by DeepAI.
+
+
+How to send to issues/questions
+-----------------------------------------------------
+
+Please use github issues to report problems or ask questions. For individual inquiries, please reach out to aRefOOT2 via email at 'arefoot2@gmail.com'.
+Don't worry if it takes a while for us to reply. If you do not receive a response within a month, you may consider sending a follow-up email.
+===============================
